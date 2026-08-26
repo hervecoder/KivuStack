@@ -13,7 +13,7 @@ This directory contains the official **KivuStack Ltd** visual identity and brand
 
 All logos are original, editable SVGs (`viewBox`, no external dependencies, no scripts) with a clean geometric **K** mark. The wordmark reads exactly `KivuStack` (the `Ltd` appears in supporting lockups such as the Open Graph image and footer, not the main mark).
 
-Deployed copies for the website are in `website/assets/images/` and are kept in sync.
+Deployed copies for the website are in `assets/images/` and are kept in sync (website uses root `assets/`).
 
 ## Brand guidelines
 
@@ -21,8 +21,8 @@ Deployed copies for the website are in `website/assets/images/` and are kept in 
 
 ## Additional assets
 
-* `website/assets/images/favicon.svg` — official favicon derived from the icon
-* `website/assets/images/og-image.svg` — 1200×630 social preview graphic with `KivuStack Ltd` and company descriptor
+* `assets/images/favicon.svg` — official favicon derived from the icon
+* `assets/images/og-image.svg` — 1200×630 social preview graphic with `KivuStack Ltd` and company descriptor
 
 ## Usage
 

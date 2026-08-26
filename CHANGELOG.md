@@ -6,6 +6,19 @@ Entries are organized chronologically with **newest first** using the format `YY
 
 ---
 
+## 2026-08-26 — Root Website Structure
+
+Website presentation was restructured to live at the repository root while preserving all company documentation and governance.
+
+* Website source moved from `website/` to repository root (`index.html` and `404.html` now at root, assets at `assets/`).
+* GitHub Pages deployment updated to publish only the website artifact via temporary `_site/` directory (`index.html`, `404.html`, `assets/`), excluding company documentation (`README.md`, `CHANGELOG.md`, `LICENSE`, `docs/`, `.github/`).
+* Company documentation and governance preserved (`README.md`, `CHANGELOG.md`, `LICENSE`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `docs/`, `assets/brand-guidelines.md`).
+* `website/README.md` migrated to `docs/website.md` and `website/` directory removed after verification.
+
+The website was not newly launched; the existing KivuStack Ltd site was re‑structured and redeployed at `https://hervecoder.github.io/KivuStack/`.
+
+---
+
 ## 2026-08-26 — KivuStack Ltd Brand Migration
 
 The public company identity was migrated from **KivuSoft Ltd** to **KivuStack Ltd**.

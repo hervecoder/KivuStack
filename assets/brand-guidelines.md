@@ -31,7 +31,7 @@ All logos are original, editable SVGs with `viewBox`, no external dependencies, 
 | `assets/KivuStack-icon.svg` | Icon only — for favicon, small spaces, avatars | Light |
 | `assets/KivuStack-icon-dark.svg` | Icon only — light icon for dark backgrounds | Dark |
 
-Deployed copies for the website are available at `website/assets/images/` (`KivuStack-logo.svg`, `KivuStack-logo-dark.svg`, `KivuStack-icon.svg`, `favicon.svg`, `og-image.svg`).
+Deployed copies for the website are available at `assets/images/` (`kivustack-logo.svg`, `kivustack-logo-dark.svg`, `kivustack-icon.svg`, `favicon.svg`, `og-image.svg`) — website uses root `assets/`.
 
 ### Icon concept
 
@@ -90,23 +90,23 @@ No external font dependency is added solely for branding.
 
 ## Favicon
 
-* `website/assets/images/favicon.svg` — 32×32 icon-based favicon (same K mark). Referenced in `website/index.html` and `website/404.html` as `type="image/svg+xml"`.
+* `assets/images/favicon.svg` — 32×32 icon-based favicon (same K mark). Referenced in `index.html` and `404.html` at repository root as `type="image/svg+xml"`.
 * Modern browsers support SVG favicons reliably; no additional `.ico` is required for core support. A PNG fallback can be added later if analytics show a need.
 
 ## Social / Open Graph image
 
-* `website/assets/images/og-image.svg` — 1200×630 social preview. Contains `KivuStack Ltd`, descriptor “Useful, reliable, and accessible technology” and supporting line “Building practical digital solutions — software applications, web platforms, mobile apps, and automation systems.” Uses approved brand colors, no invented products, statistics, locations, awards, or claims. Readable when scaled to social preview size.
+* `assets/images/og-image.svg` — 1200×630 social preview. Contains `KivuStack Ltd`, descriptor “Useful, reliable, and accessible technology” and supporting line “Building practical digital solutions — software applications, web platforms, mobile apps, and automation systems.” Uses approved brand colors, no invented products, statistics, locations, awards, or claims. Readable when scaled to social preview size.
 
-Referenced in `website/index.html` as:
+Referenced in `index.html` at repository root as:
 `https://hervecoder.github.io/KivuStack/assets/images/og-image.svg` (and Twitter card).
 
 ---
 
 ## Website integration
 
-* Header wordmark replaced with `assets/KivuStack-logo.svg` (light) linking to `#home` with `alt="KivuStack Ltd"`.
-* Footer uses `KivuStack-logo-dark.svg` variant where background is dark, otherwise primary.
-* CSS variables in `website/assets/css/style.css` align with this palette (`--text #0f172a`, `--accent #2563eb`, `--bg-hero #0b1020`, etc.).
+* Header wordmark replaced with `assets/images/kivustack-logo.svg` (light) linking to `#home` with `alt="KivuStack Ltd"`.
+* Footer uses `kivustack-logo.svg` variant (primary on light footer) — `assets/images/kivustack-logo.svg`.
+* CSS variables in `assets/css/style.css` at repository root align with this palette (`--text #0f172a`, `--accent #2563eb`, `--bg-hero #0b1020`, etc.).
 * No redesign beyond brand integration — responsive layout, accessibility, reduced‑motion, focus states, and performance characteristics are preserved.
 
 ---

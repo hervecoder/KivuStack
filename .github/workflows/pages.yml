@@ -26,10 +26,26 @@ jobs:
         with:
           enablement: true
 
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp 404.html _site/
+          cp -r assets _site/
+          echo "Pages artifact contents:"
+          ls -R _site
+          echo "--- Verify no company docs in artifact ---"
+          if ls _site/README.md 2>/dev/null; then echo "ERROR: README.md in artifact"; exit 1; fi
+          if ls _site/CHANGELOG.md 2>/dev/null; then echo "ERROR: CHANGELOG.md in artifact"; exit 1; fi
+          if ls _site/LICENSE 2>/dev/null; then echo "ERROR: LICENSE in artifact"; exit 1; fi
+          if [ -d _site/docs ]; then echo "ERROR: docs in artifact"; exit 1; fi
+          if [ -d _site/.github ]; then echo "ERROR: .github in artifact"; exit 1; fi
+          echo "Artifact verification passed"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: website
+          path: _site
 
   deploy:
     environment:
