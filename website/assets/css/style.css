@@ -1,16 +1,17 @@
-/* KivuSoft Ltd — website style.css — lightweight, no dependencies */
+/* KivuSoft Ltd — website style.css — lightweight, no dependencies
+   Brand palette: see assets/brand-guidelines.md — primary #0f172a, accent #2563eb, dark #0b1020 */
 :root{
   --bg:#ffffff;
   --bg-alt:#f8fafc;
   --bg-hero:#0b1020;
   --bg-hero-2:#111a33;
   --surface:#ffffff;
-  --text:#0f172a;
-  --muted:#64748b;
+  --text:#0f172a; /* primary */
+  --muted:#64748b; /* muted */
   --muted-2:#94a3b8;
-  --line:#e2e8f0;
+  --line:#e2e8f0; /* border */
   --line-strong:#cbd5e1;
-  --accent:#2563eb;
+  --accent:#2563eb; /* KivuSoft Blue */
   --accent-hover:#1d4ed8;
   --accent-soft:#eff6ff;
   --accent-border:#bfdbfe;
@@ -93,6 +94,15 @@ h3{font-size:1.05rem; font-weight:650}
   display:grid; place-items:center; font-size:.72rem; font-weight:800; letter-spacing:.06em;
 }
 .wordmark:hover{text-decoration:none}
+.brand{
+  display:inline-flex; align-items:center; text-decoration:none; line-height:0;
+}
+.brand img{ display:block; height:32px; width:auto; }
+.brand:hover{opacity:.92}
+.brand:focus-visible{box-shadow:var(--focus); border-radius:8px}
+.footer-brand{ display:flex; flex-direction:column; gap:10px; align-items:flex-start; }
+.footer-brand img{ display:block; height:28px; width:auto; }
+.footer-wordmark{font-weight:800; letter-spacing:-.02em}
 .nav-primary ul{
   list-style:none; margin:0; padding:0; display:flex; align-items:center; gap:6px;
 }

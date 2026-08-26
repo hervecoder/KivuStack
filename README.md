@@ -68,6 +68,7 @@ This repository is the starting point for KivuSoft documentation.
 - Products and projects: [`docs/projects.md`](docs/projects.md)
 - Documentation index: [`docs/README.md`](docs/README.md)
 - Brand assets: [`assets/README.md`](assets/README.md)
+- Brand guidelines: [`assets/brand-guidelines.md`](assets/brand-guidelines.md)
 - Contributing: [`CONTRIBUTING.md`](CONTRIBUTING.md)
 - Code of Conduct: [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
 - Security: [`SECURITY.md`](SECURITY.md)
