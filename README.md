@@ -82,8 +82,7 @@ Additional documentation will be structured under `docs/` as the organization gr
 ## Official Links
 
 - GitHub repository: https://github.com/hervecoder/KivuSoft
-
-[Official website coming soon]
+- Website: GitHub Pages deployment in progress
 
 ## License
 
