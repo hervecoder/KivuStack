@@ -1,8 +1,22 @@
-# Changelog — KivuSoft Ltd
+# Changelog — KivuStack Ltd
 
-This changelog records significant public changes to the **KivuSoft Ltd** company hub and website.
+This changelog records significant public changes to the **KivuStack Ltd** company hub and website.
 
-Entries are organized chronologically with **newest first** using the format `YYYY-MM-DD — Release/Event`. This file covers company identity, website, branding, documentation, governance, and major public infrastructure — not software release notes for future KivuSoft products.
+Entries are organized chronologically with **newest first** using the format `YYYY-MM-DD — Release/Event`. This file covers company identity, website, branding, documentation, governance, and major public infrastructure — not software release notes for future KivuStack products.
+
+---
+
+## 2026-08-26 — KivuStack Ltd Brand Migration
+
+The public company identity was migrated from **KivuSoft Ltd** to **KivuStack Ltd**.
+
+* Public company identity changed from KivuSoft Ltd to KivuStack Ltd.
+* Primary brand changed from KivuSoft to KivuStack.
+* Main GitHub repository renamed from `hervecoder/KivuSoft` to `hervecoder/KivuStack` (history preserved, redirect from old URL).
+* Website and brand assets migrated from KivuSoft to KivuStack (logo filenames `kivustack-*`, favicon, Open Graph image, documentation, and site content).
+* Existing public foundation retained — previous entry preserved as historical record.
+
+This change reflects the current public brand; it does not imply a new legal entity beyond what has been verified.
 
 ---
 

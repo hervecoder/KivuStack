@@ -1,10 +1,10 @@
-# About KivuSoft Ltd
+# About KivuStack Ltd
 
-**KivuSoft Ltd** is a software and technology company.
+**KivuStack Ltd** is a software and technology company.
 
 ## Who we are
 
-KivuSoft Ltd is establishing its identity as a builder of practical digital products. We are at the foundation stage — defining our company hub, documentation, and initial product direction.
+KivuStack Ltd is establishing its identity as a builder of practical digital products. We are at the foundation stage — defining our company hub, documentation, and initial product direction.
 
 ## What we do
 
@@ -30,8 +30,9 @@ We choose technologies pragmatically and document decisions per project. We aim 
 
 ## Current status
 
-KivuSoft is building its digital products and technology ecosystem. Official products, services, and company channels will be announced in this repository as they are established.
+KivuStack is building its digital products and technology ecosystem. Official products, services, and company channels will be announced in this repository as they are established.
 
 ---
 
 Return to [README](../README.md) · [Documentation index](README.md)
+

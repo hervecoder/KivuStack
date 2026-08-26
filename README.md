@@ -1,4 +1,4 @@
-# KivuSoft Ltd
+# KivuStack Ltd
 
 A software and technology company building useful, reliable, and accessible digital products.
 
@@ -6,13 +6,13 @@ A software and technology company building useful, reliable, and accessible digi
 
 ---
 
-## About KivuSoft
+## About KivuStack
 
-KivuSoft Ltd is a software and technology company focused on designing and developing practical digital solutions.
+KivuStack Ltd is a software and technology company focused on designing and developing practical digital solutions.
 
 We build software that is useful, reliable, and accessible — with an emphasis on clarity, performance, and long-term maintainability. Our work spans applications and platforms intended to serve real needs for individuals, businesses, and communities.
 
-KivuSoft is in its foundation phase, establishing its company identity, documentation, and product pipeline.
+KivuStack is in its foundation phase, establishing its company identity, documentation, and product pipeline.
 
 ## Mission
 
@@ -24,7 +24,7 @@ To become a trusted technology company recognised for practical innovation, depe
 
 ## What We Build
 
-KivuSoft focuses on general-purpose software and technology areas, including:
+KivuStack focuses on general-purpose software and technology areas, including:
 
 - **Software applications** — purpose-built applications for specific use cases
 - **Web platforms** — accessible, performant web experiences
@@ -38,17 +38,17 @@ We define and scope each initiative based on real requirements. Specific product
 
 This section is being established.
 
-Official KivuSoft products and projects will be listed here as they are publicly launched. Each product will have its own repository and/or documentation describing its purpose, status, and usage.
+Official KivuStack products and projects will be listed here as they are publicly launched. Each product will have its own repository and/or documentation describing its purpose, status, and usage.
 
 No products are listed yet — this repository currently serves as the company hub.
 
 ## Technology
 
-KivuSoft works with modern software technologies and selects tools based on the requirements of each product.
+KivuStack works with modern software technologies and selects tools based on the requirements of each product.
 
 We prioritise maintainability, security, and developer experience, and we document the technology choices for each project within its own repository.
 
-No single fixed stack is assumed for all KivuSoft projects.
+No single fixed stack is assumed for all KivuStack projects.
 
 ## Principles
 
@@ -61,7 +61,7 @@ No single fixed stack is assumed for all KivuSoft projects.
 
 ## Documentation
 
-This repository is the starting point for KivuSoft documentation.
+This repository is the starting point for KivuStack documentation.
 
 - Company overview: [`docs/about.md`](docs/about.md)
 - Mission and vision: [`docs/mission-and-vision.md`](docs/mission-and-vision.md)
@@ -79,19 +79,20 @@ Additional documentation will be structured under `docs/` as the organization gr
 
 ## Contact
 
-> Official KivuSoft Ltd contact channels will be published here as they are established.
+> Official KivuStack Ltd contact channels will be published here as they are established.
 
 ## Official Links
 
-- GitHub repository: https://github.com/hervecoder/KivuSoft
-- Website: https://hervecoder.github.io/KivuSoft/
+- GitHub repository: https://github.com/hervecoder/KivuStack
+- Website: https://hervecoder.github.io/KivuStack/
 
 ## License
 
-The licensing status of individual KivuSoft projects may vary. Each repository will state its applicable license in its own `LICENSE` file or README. This company hub repository does not impose a single license on future KivuSoft products.
+The licensing status of individual KivuStack projects may vary. Each repository will state its applicable license in its own `LICENSE` file or README. This company hub repository does not impose a single license on future KivuStack products.
 
 ## Footer
 
-KivuSoft Ltd — Building useful, reliable, and accessible technology.
+KivuStack Ltd — Building useful, reliable, and accessible technology.
 
 ---
+

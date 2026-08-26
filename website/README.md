@@ -1,6 +1,6 @@
-# KivuSoft Ltd — Website
+# KivuStack Ltd — Website
 
-This directory contains the official **KivuSoft Ltd** website — a lightweight static site deployed to GitHub Pages.
+This directory contains the official **KivuStack Ltd** website — a lightweight static site deployed to GitHub Pages.
 
 It is a presentation layer on top of the company hub repository. All company truth (README, docs, governance, license) remains in the repository root.
 
@@ -36,7 +36,7 @@ The workflow at `.github/workflows/pages.yml`:
 
 Permissions are minimal: `contents: read`, `pages: write`, `id-token: write`.
 
-No domain, CNAME, or DNS is configured yet. The site is served at the GitHub Pages URL provisioned for `hervecoder/KivuSoft` (e.g. `https://hervecoder.github.io/KivuSoft/`).
+No domain, CNAME, or DNS is configured yet. The site is served at the GitHub Pages URL provisioned for `hervecoder/KivuStack` (e.g. `https://hervecoder.github.io/KivuStack/`).
 
 ## Where to edit content
 
@@ -66,4 +66,5 @@ python -m http.server --directory website 8000
 
 The site keeps the deployment lightweight and private: no analytics, tracking pixels, advertising, external libraries, or build systems. No secrets or credentials are committed.
 
-Part of [KivuSoft Ltd](../README.md).
+Part of [KivuStack Ltd](../README.md).
+

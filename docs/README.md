@@ -1,16 +1,16 @@
-# KivuSoft Ltd — Documentation
+# KivuStack Ltd — Documentation
 
-This directory contains the initial public documentation for **KivuSoft Ltd**.
+This directory contains the initial public documentation for **KivuStack Ltd**.
 
 ## Contents
 
-- [About KivuSoft](about.md) — who we are and what we do
+- [About KivuStack](about.md) — who we are and what we do
 - [Mission and Vision](mission-and-vision.md) — purpose and long-term direction
 - [Products & Projects](projects.md) — current and upcoming work
 
 ## Purpose
 
-The `docs/` directory is the canonical location for company documentation that belongs alongside the company hub repository. As KivuSoft grows, additional guides, policies, and product documentation will be organized here or in product-specific repositories.
+The `docs/` directory is the canonical location for company documentation that belongs alongside the company hub repository. As KivuStack grows, additional guides, policies, and product documentation will be organized here or in product-specific repositories.
 
 No external documentation site is available yet. For now, all official information lives in this repository.
 
@@ -20,4 +20,5 @@ Documentation changes are made via pull requests to the `main` branch. Keep lang
 
 ---
 
-Part of [KivuSoft Ltd](../README.md).
+Part of [KivuStack Ltd](../README.md).
+

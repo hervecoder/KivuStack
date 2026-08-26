@@ -21,8 +21,9 @@ Our direction is to grow a portfolio of products that are:
 
 Our principles — user-focused engineering, simplicity, reliability, security, continuous improvement, and open collaboration where appropriate — guide how we define, build, and operate products.
 
-These statements will be revisited as KivuSoft evolves and will be updated in this repository when they change.
+These statements will be revisited as KivuStack evolves and will be updated in this repository when they change.
 
 ---
 
 Return to [README](../README.md) · [Documentation index](README.md)
+

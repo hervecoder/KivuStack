@@ -1,6 +1,6 @@
-# KivuSoft Ltd — Brand Guidelines
+# KivuStack Ltd — Brand Guidelines
 
-This document describes the current **KivuSoft Ltd** visual identity as established in this repository. These assets represent the current brand identity used on the company hub and website. This is the first formal visual identity for KivuSoft Ltd.
+This document describes the current **KivuStack Ltd** visual identity as established in this repository. These assets represent the current brand identity used on the company hub and website. This is the first formal visual identity for KivuStack Ltd.
 
 > No trademark registration or brand registration is claimed. No exclusive legal rights beyond what is actually known are asserted here.
 
@@ -10,11 +10,11 @@ This document describes the current **KivuSoft Ltd** visual identity as establis
 
 The company name is exactly:
 
-**KivuSoft Ltd**
+**KivuStack Ltd**
 
-Use this capitalization consistently in all text, logos, and communications. Do not use `Kivusoft Ltd`, `KIVUSOFT Ltd`, `Kivu Soft Ltd`, or `KivuSoft Technologies` unless explicitly required as a technical identifier.
+Use this capitalization consistently in all text, logos, and communications. Do not use `KivuStack Ltd`, `KivuStack Ltd`, `KivuStack Ltd`, or `KivuStack Technologies` unless explicitly required as a technical identifier.
 
-Wordmark in the primary logo reads exactly `KivuSoft` (the `Ltd` designation appears in supporting text such as the website footer and Open Graph image, but the main mark remains uncluttered for legibility at small sizes).
+Wordmark in the primary logo reads exactly `KivuStack` (the `Ltd` designation appears in supporting text such as the website footer and Open Graph image, but the main mark remains uncluttered for legibility at small sizes).
 
 ---
 
@@ -26,12 +26,12 @@ All logos are original, editable SVGs with `viewBox`, no external dependencies, 
 
 | File | Purpose | Background |
 |------|---------|------------|
-| `assets/kivusoft-logo.svg` | Primary logo — icon + `KivuSoft` wordmark | Light (`#ffffff`) |
-| `assets/kivusoft-logo-dark.svg` | Logo variant for dark backgrounds — light wordmark | Dark (`#0b1020`) |
-| `assets/kivusoft-icon.svg` | Icon only — for favicon, small spaces, avatars | Light |
-| `assets/kivusoft-icon-dark.svg` | Icon only — light icon for dark backgrounds | Dark |
+| `assets/KivuStack-logo.svg` | Primary logo — icon + `KivuStack` wordmark | Light (`#ffffff`) |
+| `assets/KivuStack-logo-dark.svg` | Logo variant for dark backgrounds — light wordmark | Dark (`#0b1020`) |
+| `assets/KivuStack-icon.svg` | Icon only — for favicon, small spaces, avatars | Light |
+| `assets/KivuStack-icon-dark.svg` | Icon only — light icon for dark backgrounds | Dark |
 
-Deployed copies for the website are available at `website/assets/images/` (`kivusoft-logo.svg`, `kivusoft-logo-dark.svg`, `kivusoft-icon.svg`, `favicon.svg`, `og-image.svg`).
+Deployed copies for the website are available at `website/assets/images/` (`KivuStack-logo.svg`, `KivuStack-logo-dark.svg`, `KivuStack-icon.svg`, `favicon.svg`, `og-image.svg`).
 
 ### Icon concept
 
@@ -39,9 +39,9 @@ The icon is a 32×32 rounded square (`rx 8`) with a clean geometric **K** mark. 
 
 ### Usage
 
-* Use `kivusoft-logo.svg` on light backgrounds (website header, documents).
-* Use `kivusoft-logo-dark.svg` on dark backgrounds (hero, footer dark, social).
-* Use `kivusoft-icon.svg` where space is constrained (favicon, 16–32 px).
+* Use `KivuStack-logo.svg` on light backgrounds (website header, documents).
+* Use `KivuStack-logo-dark.svg` on dark backgrounds (hero, footer dark, social).
+* Use `KivuStack-icon.svg` where space is constrained (favicon, 16–32 px).
 * Maintain clear space around the logo equal to the height of the `K` stem.
 * Do not stretch, rotate, add effects, or change colors outside the approved palette.
 * Do not recreate or imitate an existing company’s identity.
@@ -54,9 +54,9 @@ A small, coherent palette. All colors are flat — no excessive gradients.
 
 | Role | Name | HEX | Usage |
 |------|------|-----|-------|
-| **Primary** | KivuSoft Navy | `#0f172a` | Logo icon background (light), primary text, header |
+| **Primary** | KivuStack Navy | `#0f172a` | Logo icon background (light), primary text, header |
 | **Secondary** | Slate 800 | `#1e293b` | Hover states, secondary surfaces |
-| **Accent** | KivuSoft Blue | `#2563eb` | Interactive elements, links, badges, accent dot |
+| **Accent** | KivuStack Blue | `#2563eb` | Interactive elements, links, badges, accent dot |
 | **Accent Hover** | Blue 700 | `#1d4ed8` | Button hover |
 | **Accent Soft** | Blue 50 | `#eff6ff` | Soft backgrounds, icon badges |
 | **Accent Border** | Blue 200 | `#bfdbfe` | Borders on accent elements |
@@ -95,17 +95,17 @@ No external font dependency is added solely for branding.
 
 ## Social / Open Graph image
 
-* `website/assets/images/og-image.svg` — 1200×630 social preview. Contains `KivuSoft Ltd`, descriptor “Useful, reliable, and accessible technology” and supporting line “Building practical digital solutions — software applications, web platforms, mobile apps, and automation systems.” Uses approved brand colors, no invented products, statistics, locations, awards, or claims. Readable when scaled to social preview size.
+* `website/assets/images/og-image.svg` — 1200×630 social preview. Contains `KivuStack Ltd`, descriptor “Useful, reliable, and accessible technology” and supporting line “Building practical digital solutions — software applications, web platforms, mobile apps, and automation systems.” Uses approved brand colors, no invented products, statistics, locations, awards, or claims. Readable when scaled to social preview size.
 
 Referenced in `website/index.html` as:
-`https://hervecoder.github.io/KivuSoft/assets/images/og-image.svg` (and Twitter card).
+`https://hervecoder.github.io/KivuStack/assets/images/og-image.svg` (and Twitter card).
 
 ---
 
 ## Website integration
 
-* Header wordmark replaced with `assets/kivusoft-logo.svg` (light) linking to `#home` with `alt="KivuSoft Ltd"`.
-* Footer uses `kivusoft-logo-dark.svg` variant where background is dark, otherwise primary.
+* Header wordmark replaced with `assets/KivuStack-logo.svg` (light) linking to `#home` with `alt="KivuStack Ltd"`.
+* Footer uses `KivuStack-logo-dark.svg` variant where background is dark, otherwise primary.
 * CSS variables in `website/assets/css/style.css` align with this palette (`--text #0f172a`, `--accent #2563eb`, `--bg-hero #0b1020`, etc.).
 * No redesign beyond brand integration — responsive layout, accessibility, reduced‑motion, focus states, and performance characteristics are preserved.
 
@@ -114,7 +114,7 @@ Referenced in `website/index.html` as:
 ## License / intellectual property
 
 * **Software/code** in this repository is licensed under the repository’s `LICENSE` (MIT) where stated.
-* **Brand assets** — logos, icons, wordmark, Open Graph image, favicon — are company identity assets of **KivuSoft Ltd** and are **not** automatically covered by the MIT license. Do not reuse KivuSoft Ltd branding to imply affiliation without permission. Each repository will state its applicable license; branding remains property of KivuSoft Ltd.
+* **Brand assets** — logos, icons, wordmark, Open Graph image, favicon — are company identity assets of **KivuStack Ltd** and are **not** automatically covered by the MIT license. Do not reuse KivuStack Ltd branding to imply affiliation without permission. Each repository will state its applicable license; branding remains property of KivuStack Ltd.
 
 Do not add unverified legal claims.
 
@@ -122,6 +122,7 @@ Do not add unverified legal claims.
 
 ## Current status
 
-These files constitute the **current KivuSoft Ltd brand identity** as of 2026. Future refinements will be versioned in this repository. The `Ltd` designation appears in supporting lockups (e.g., `KivuSoft Ltd` in OG image and footer) while the primary mark remains `KivuSoft` for clarity.
+These files constitute the **current KivuStack Ltd brand identity** as of 2026. Future refinements will be versioned in this repository. The `Ltd` designation appears in supporting lockups (e.g., `KivuStack Ltd` in OG image and footer) while the primary mark remains `KivuStack` for clarity.
 
-Part of [KivuSoft Ltd](../README.md) · Website: https://hervecoder.github.io/KivuSoft/
+Part of [KivuStack Ltd](../README.md) · Website: https://hervecoder.github.io/KivuStack/
+

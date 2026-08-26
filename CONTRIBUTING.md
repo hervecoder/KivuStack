@@ -1,6 +1,6 @@
-# Contributing to KivuSoft Ltd
+# Contributing to KivuStack Ltd
 
-Thank you for your interest in contributing to the **KivuSoft Ltd** company hub. This repository is the official public identity for KivuSoft Ltd and contains company documentation and hub resources.
+Thank you for your interest in contributing to the **KivuStack Ltd** company hub. This repository is the official public identity for KivuStack Ltd and contains company documentation and hub resources.
 
 ## Before contributing
 
@@ -28,7 +28,7 @@ When submitting a pull request:
 - Avoid unrelated modifications in the same pull request
 - Ensure documentation remains accurate and links remain valid
 - Do not commit secrets, credentials, API keys, tokens, or private information
-- Keep changes consistent with the existing style and terminology (`KivuSoft Ltd`)
+- Keep changes consistent with the existing style and terminology (`KivuStack Ltd`)
 
 ## Quality
 
@@ -41,5 +41,6 @@ We value:
 
 There is no complex development workflow for this hub repository. Small documentation changes may be made directly via pull request to `main`. Larger changes should be discussed in an issue first.
 
-Thank you for helping improve KivuSoft Ltd.
+Thank you for helping improve KivuStack Ltd.
+
 

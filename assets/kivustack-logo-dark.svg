@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 32" role="img" aria-labelledby="title desc">
+<title id="title">KivuStack — dark background variant</title>
+<desc id="desc">KivuStack logo for dark backgrounds — light icon and wordmark</desc>
+<!-- Icon — light background for dark contexts -->
+<rect x="0" y="0" width="32" height="32" rx="8" fill="#ffffff"/>
+<path d="M 9 8 H 12.6 V 13.7 L 20.1 8 H 24 L 15.4 15.1 L 24 24 H 20.1 L 12.6 16.6 V 24 H 9 Z" fill="#0f172a"/>
+<!-- Wordmark KivuStack — white for dark backgrounds -->
+<text x="44" y="22.5" font-family="ui-sans-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="750" letter-spacing="-0.02em" fill="#ffffff">KivuStack</text>
+</svg>
+

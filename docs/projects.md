@@ -2,11 +2,11 @@
 
 ## Overview
 
-This section will list official **KivuSoft Ltd** products and projects as they are publicly launched.
+This section will list official **KivuStack Ltd** products and projects as they are publicly launched.
 
 ## Current status
 
-No products are listed yet. This repository currently serves as the company hub while KivuSoft establishes its product pipeline.
+No products are listed yet. This repository currently serves as the company hub while KivuStack establishes its product pipeline.
 
 ## How products will be listed
 
@@ -29,3 +29,4 @@ Official products and projects will appear here as they become available.
 ---
 
 Return to [README](../README.md) · [Documentation index](README.md)
+

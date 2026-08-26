@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-labelledby="title">
-<title id="title">KivuSoft icon — dark background variant</title>
+<title id="title">KivuStack icon — dark background variant</title>
 <rect width="32" height="32" rx="8" fill="#ffffff"/>
 <!-- K mark — navy on light for dark backgrounds -->
 <path d="M 9 8 H 12.6 V 13.7 L 20.1 8 H 24 L 15.4 15.1 L 24 24 H 20.1 L 12.6 16.6 V 24 H 9 Z" fill="#0f172a"/>
 <rect width="32" height="32" rx="8" fill="none" stroke="#e2e8f0" stroke-opacity="0.0"/>
 </svg>
+

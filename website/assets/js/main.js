@@ -1,4 +1,4 @@
-// KivuSoft Ltd — minimal progressive enhancement, no dependencies
+// KivuStack Ltd — minimal progressive enhancement, no dependencies
 (function(){
   var toggle = document.querySelector(".nav-toggle");
   var nav = document.getElementById("primary-nav");
@@ -77,3 +77,4 @@
     }
   }
 })();
+
