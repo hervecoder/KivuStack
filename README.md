@@ -73,6 +73,7 @@ This repository is the starting point for KivuSoft documentation.
 - Code of Conduct: [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
 - Security: [`SECURITY.md`](SECURITY.md)
 - License: [`LICENSE`](LICENSE)
+- Changelog: [`CHANGELOG.md`](CHANGELOG.md)
 
 Additional documentation will be structured under `docs/` as the organization grows. No documentation is hosted outside this repository at this time.
 
