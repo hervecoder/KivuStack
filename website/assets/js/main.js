@@ -46,7 +46,7 @@
   });
 
   // Active link highlight on scroll
-  var links = Array.prototype.slice.call(nav.querySelectorAll(''a[href^="#"]''));
+  var links = Array.prototype.slice.call(nav.querySelectorAll('a[href^="#"]'));
   var sections = links.map(function(a){
     try { return document.querySelector(a.getAttribute("href")); } catch(_) { return null; }
   }).filter(Boolean);
