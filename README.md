@@ -14,6 +14,8 @@ We build software that is useful, reliable, and accessible — with an emphasis 
 
 KivuStack is in its foundation phase, establishing its company identity, documentation, and product pipeline.
 
+**CEO: Herve NDATIMANA** — Chief Executive Officer & Software Developer, leading KivuStack Ltd's development of practical software and digital products.
+
 ## Mission
 
 To build useful technology that solves real-world problems and creates lasting value for the people and organizations we serve.
@@ -36,11 +38,17 @@ We define and scope each initiative based on real requirements. Specific product
 
 ## Products & Projects
 
-This section is being established.
-
 Official KivuStack products and projects will be listed here as they are publicly launched. Each product will have its own repository and/or documentation describing its purpose, status, and usage.
 
-No products are listed yet — this repository currently serves as the company hub.
+### Perime App
+
+**Perime App** is KivuStack Ltd's flagship digital product, focused on helping users prepare for Rwanda's road rules examination.
+
+Perime App has demonstrated strong and growing audience interest through its social‑media presence.
+
+### More products are in development
+
+KivuStack Ltd is developing additional digital products and applications that will be introduced as they reach public launch.
 
 ## Technology
 
@@ -84,7 +92,7 @@ Additional documentation will be structured under `docs/` as the organization gr
 ## Official Links
 
 - GitHub repository: https://github.com/hervecoder/KivuStack
-- Website: https://hervecoder.github.io/KivuStack/
+- Website: https://kivustack.pages.dev/
 
 ## License
 
