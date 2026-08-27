@@ -33,6 +33,7 @@ jobs:
           cp 404.html _site/
           cp robots.txt _site/ 2>/dev/null || echo "no robots.txt"
           cp sitemap.xml _site/ 2>/dev/null || echo "no sitemap.xml"
+          cp google*.html _site/ 2>/dev/null || echo "no google verification file"
           cp -r assets _site/
           if [ -d products ]; then cp -r products _site/; fi
           echo "Pages artifact contents:"
