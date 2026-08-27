@@ -98,7 +98,7 @@ No external font dependency is added solely for branding.
 * `assets/images/og-image.svg` — 1200×630 social preview. Contains `KivuStack Ltd`, descriptor “Useful, reliable, and accessible technology” and supporting line “Building practical digital solutions — software applications, web platforms, mobile apps, and automation systems.” Uses approved brand colors, no invented products, statistics, locations, awards, or claims. Readable when scaled to social preview size.
 
 Referenced in `index.html` at repository root as:
-`https://hervecoder.github.io/KivuStack/assets/images/og-image.svg` (and Twitter card).
+`https://kivustack.pages.dev/assets/images/og-image.svg` (and Twitter card).
 
 ---
 
@@ -124,5 +124,5 @@ Do not add unverified legal claims.
 
 These files constitute the **current KivuStack Ltd brand identity** as of 2026. Future refinements will be versioned in this repository. The `Ltd` designation appears in supporting lockups (e.g., `KivuStack Ltd` in OG image and footer) while the primary mark remains `KivuStack` for clarity.
 
-Part of [KivuStack Ltd](../README.md) · Website: https://hervecoder.github.io/KivuStack/
+Part of [KivuStack Ltd](../README.md) · Website: https://kivustack.pages.dev/ · GitHub: https://github.com/hervecoder/KivuStack
 
