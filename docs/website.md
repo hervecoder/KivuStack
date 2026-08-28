@@ -74,8 +74,8 @@ The temporary `_site/` directory is created inside the workflow runner only and 
 * **Canonical:** `<link rel="canonical" href="https://kivustack.pages.dev/">` on homepage and `https://kivustack.pages.dev/products/perime/` on product page. The canonical must be updated when a permanent custom domain is adopted — do not invent a domain beforehand.
 * **robots.txt:** `User-agent: * / Allow: /` plus `Sitemap: https://kivustack.pages.dev/sitemap.xml`
 * **sitemap.xml:** absolute URLs for `https://kivustack.pages.dev/` and `https://kivustack.pages.dev/products/perime/` only — no GitHub URLs, no private docs, no thin pages.
-* **Structured data:** JSON-LD `Organization` (name: KivuStack Ltd, url, logo, sameAs: GitHub only), `Person` (Herve NDATIMANA — CEO & Software Developer), `WebSite`, and `Product` (Perime App is a KivuStack Ltd product). Validated JSON, no fabricated fields.
-* **Internal linking:** KivuStack Ltd ↔ Herve NDATIMANA ↔ Perime App ↔ Official website ↔ Official GitHub — all links verified.
+* **Structured data:** JSON-LD `Organization` (name: KivuStack Ltd, url, logo, sameAs: GitHub + LinkedIn Company Page `https://www.linkedin.com/company/kivustack`), `Person` (Herve NDATIMANA — CEO & Software Developer, worksFor/affiliation KivuStack Ltd), `WebSite`, and `Product` (Perime App is a KivuStack Ltd product). Validated JSON, no fabricated fields.
+* **Internal linking:** KivuStack Ltd ↔ Herve NDATIMANA ↔ Perime App ↔ Official website ↔ Official GitHub ↔ Official LinkedIn — all links verified.
 
 ## Where to edit content
 

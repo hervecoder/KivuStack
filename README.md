@@ -87,12 +87,18 @@ Additional documentation will be structured under `docs/` as the organization gr
 
 ## Contact
 
-> Official KivuStack Ltd contact channels will be published here as they are established.
+Official channels:
+
+- GitHub: https://github.com/hervecoder/KivuStack
+- LinkedIn Company Page: https://www.linkedin.com/company/kivustack
+
+Additional contact channels will be published here as they are established.
 
 ## Official Links
 
 - GitHub repository: https://github.com/hervecoder/KivuStack
 - Website: https://kivustack.pages.dev/
+- LinkedIn (Company): https://www.linkedin.com/company/kivustack — KivuStack Ltd
 
 ## License
 
