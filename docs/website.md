@@ -20,12 +20,15 @@ After the root restructuring, the website source lives at the repository root:
 ├── sitemap.xml         — canonical public pages (homepage, products/perime/)
 ├── products/
 │   └── perime/
-│       └── index.html  — Perime App — KivuStack Ltd flagship product
+│       └── index.html  — Perime App — Rwanda Road Rules Learning | KivuStack Ltd — officially launched on Google Play
 └── assets/
     ├── css/
     │   └── style.css   — all styles (responsive, no frameworks)
+    ├── fonts/
+    │   ├── source-sans-3-latin.woff2    — self-hosted variable font (200–900)
+    │   └── source-code-pro-latin.woff2  — self-hosted variable font (200–900)
     ├── js/
-    │   └── main.js     — mobile navigation + scroll enhancements (no dependencies)
+    │   └── main.js     — mobile navigation + reveal-on-scroll (js-guarded) + active-link highlighting (no dependencies)
     └── images/
         ├── favicon.svg
         ├── og-image.svg
@@ -74,15 +77,15 @@ The temporary `_site/` directory is created inside the workflow runner only and 
 * **Canonical:** `<link rel="canonical" href="https://kivustack.pages.dev/">` on homepage and `https://kivustack.pages.dev/products/perime/` on product page. The canonical must be updated when a permanent custom domain is adopted — do not invent a domain beforehand.
 * **robots.txt:** `User-agent: * / Allow: /` plus `Sitemap: https://kivustack.pages.dev/sitemap.xml`
 * **sitemap.xml:** absolute URLs for `https://kivustack.pages.dev/` and `https://kivustack.pages.dev/products/perime/` only — no GitHub URLs, no private docs, no thin pages.
-* **Structured data:** JSON-LD `Organization` (name: KivuStack Ltd, url, logo, sameAs: GitHub + LinkedIn Company Page `https://www.linkedin.com/company/kivustack`), `Person` (Herve NDATIMANA — CEO & Software Developer, worksFor/affiliation KivuStack Ltd), `WebSite`, and `Product` (Perime App is a KivuStack Ltd product). Validated JSON, no fabricated fields.
-* **Internal linking:** KivuStack Ltd ↔ Herve NDATIMANA ↔ Perime App ↔ Official website ↔ Official GitHub ↔ Official LinkedIn — all links verified.
+* **Structured data:** JSON-LD `Organization` (name: KivuStack Ltd, url, logo, sameAs: GitHub + LinkedIn Company Page `https://www.linkedin.com/company/kivustack`), `Person` (Herve NDATIMANA — CEO & Software Developer, worksFor/affiliation KivuStack Ltd), `WebSite`, and `SoftwareApplication` (Perime App — flagship product of KivuStack Ltd, `applicationCategory: EducationalApplication`, `operatingSystem: Android`, `installUrl: https://play.google.com/store/apps/details?id=com.perime.perimeapp`, `url: https://kivustack.pages.dev/products/perime/`). Validated JSON, no fabricated fields, no fake ratings.
+* **Internal linking:** KivuStack Ltd ↔ Herve NDATIMANA ↔ Perime App ↔ Official website ↔ Official GitHub ↔ Official LinkedIn ↔ Google Play — all links verified.
 
 ## Where to edit content
 
 * Page structure and copy: `index.html` and `404.html` at repository root
 * Company messaging source of truth: `README.md` and `docs/*.md` — keep the website consistent with those files
-* Styles: `assets/css/style.css` — single stylesheet, system font stack, CSS variables, responsive breakpoints, reduced-motion, focus states
-* JavaScript: `assets/js/main.js` — vanilla JS for mobile navigation, outside-click and Escape handling, active-link highlighting, reveal animations
+* Styles: `assets/css/style.css` — single stylesheet; self-hosted Source Sans 3 / Source Code Pro variable fonts (latin woff2 subsets, preloaded), CSS variable tokens, blue-tinted elevation, 4–8px radius scale, responsive breakpoints, reduced-motion, focus states; reveal styles are scoped under a `js` root class so content renders without JavaScript
+* JavaScript: `assets/js/main.js` — vanilla JS for mobile navigation (toggle/outside-click/Escape/resize), reveal-on-scroll on every page, and active-link highlighting; no dependencies
 
 Do not invent products, domains, or contact details — use placeholders where information is not yet verified.
 
@@ -105,6 +108,6 @@ mkdir -p _site && cp index.html 404.html robots.txt sitemap.xml -t _site/ && cp 
 
 ## Security
 
-The site keeps deployment lightweight: no analytics, tracking pixels, advertising, external libraries, or build systems. No secrets or credentials are committed. The Pages artifact contains only `index.html`, `404.html`, `robots.txt`, `sitemap.xml`, `assets/`, and `products/`.
+The site keeps deployment lightweight: no analytics, tracking pixels, advertising, external libraries, or build systems. Self-hosted woff2 fonts (`assets/fonts/`, latin subsets of Source Sans 3 and Source Code Pro) are the only binary assets — the site never contacts a font CDN. No secrets or credentials are committed. The Pages artifact contains only `index.html`, `404.html`, `robots.txt`, `sitemap.xml`, `assets/`, and `products/`.
 
 Part of [KivuStack Ltd](../README.md).

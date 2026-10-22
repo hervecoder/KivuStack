@@ -2,6 +2,31 @@
 
 This changelog records significant public changes to the **KivuStack Ltd** company hub and website.
 
+---
+
+## 2026-10-22 — Website Visual System v2 (Flagship Redesign)
+
+* Website rebuilt on a Stripe-grade visual system adapted to the KivuStack brand — light pages, deep-navy headings (`#061b31`), body slate (`#425a75`), KivuStack Blue (`#2563eb`) as the single interactive accent, conservative 4–8px radii, blue-tinted multi-layer elevation shadows, and a signature tilted blue hero "ribbon".
+* Self-hosted typography: Source Sans 3 (variable, latin subset) + Source Code Pro (variable, latin subset) woff2 (~51KB total) under `assets/fonts/` — zero external font requests, no CDN.
+* Homepage (`index.html`), Perime product page (`products/perime/`), and `404.html` restyled on the shared system; hero includes a hand-built abstract Perime learning-interface concept graphic (skeleton UI, labelled as a concept — no fabricated product claims).
+* Fixed `assets/js/main.js`: reveal-on-scroll now runs on every page (it was gated behind homepage-only anchor links, which left subpage heroes hidden); added a `js` root-class guard so all content renders when JavaScript is unavailable.
+* Fixed broken capital-K logo paths (`/assets/images/KivuStack-logo.svg`) on subpages to the actual lowercase `kivustack-logo.svg`; the 404 page now uses the standard mobile nav.
+* SEO metadata, canonical URLs, structured data, robots, and page content unchanged; sitemap `lastmod` updated to 2026-10-22.
+* No new external dependencies; no analytics; no invented products, domains, contact details, metrics, or ratings.
+
+---
+
+## 2026-09-14 — Perime App Official Launch
+
+Perime App — a flagship product of KivuStack Ltd — is now officially launched and available on Google Play.
+
+* Updated website homepage (`index.html`) to present Perime App as officially launched — now available on Google Play — with launch wording, featured product positioning, and CTA.
+* Updated product page (`products/perime/index.html`) with official launch status, Google Play CTA (`https://play.google.com/store/apps/details?id=com.perime.perimeapp&pcampaignid=web_share`), package ID `com.perime.perimeapp`, and concise user-focused description.
+* Updated SEO metadata (title, description, Open Graph, Twitter) and JSON-LD `SoftwareApplication` (added `installUrl`, `operatingSystem: Android`, `alternateName`, `inLanguage`, launch description) on both homepage and product page.
+* Updated README and documentation (`README.md`, `docs/about.md`, `docs/projects.md`) to reflect launched status, correct brand relationship (Perime App — a flagship product of KivuStack Ltd — Built by KivuStack Ltd), and independence disclaimer.
+* Updated sitemap `lastmod` to 2026-09-14.
+* No fake metrics, ratings, prices, or government affiliation were added. No secrets or credentials exposed.
+
 Entries are organized chronologically with **newest first** using the format `YYYY-MM-DD — Release/Event`. This file covers company identity, website, branding, documentation, governance, and major public infrastructure — not software release notes for future KivuStack products.
 
 ---

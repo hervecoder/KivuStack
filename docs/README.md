@@ -6,7 +6,7 @@ This directory contains the initial public documentation for **KivuStack Ltd**.
 
 - [About KivuStack](about.md) — who we are and what we do
 - [Mission and Vision](mission-and-vision.md) — purpose and long-term direction
-- [Products & Projects](projects.md) — current and upcoming work
+- [Products & Projects](projects.md) — current and upcoming work, including Perime App (officially launched on Google Play)
 
 ## Purpose
 

@@ -71,20 +71,28 @@ A small, coherent palette. All colors are flat — no excessive gradients.
 
 The palette meets WCAG contrast for text: `#0f172a` on `#ffffff` (≈ 16:1), `#ffffff` on `#0b1020` (≈ 16:1), `#2563eb` on `#ffffff` (≈ 4.6:1 for large text and UI).
 
+### Design-system notes (v2 — 2026-10-22)
+
+* Headings use deep navy `#061b31`; body copy `#425a75` (≈ 7.4:1 on white); secondary text `#64748d`.
+* Elevation is blue-tinted and multi-layer — the signature: `rgba(50,50,93,0.25) 0 30px 45px -30px, rgba(0,0,0,0.1) 0 18px 36px -18px` — plus lighter ambient layers. Never a single warm/neutral shadow.
+* Radii are conservative: `4px` (buttons, badges, code chips), `5–6px` (cards), `8px` (featured panels). No pill shapes.
+* The hero's **KivuStack ribbon** — a tilted band (`−12°`) of `#1e40af → #2563eb → #0ea5e9 → #6366f1` with a soft aura — is the one signature gradient. Everything else stays flat.
+* Light/dark cadence: white sections alternate with one immersive dark navy section (`#0b1020 → #111a33`).
+
 ---
 
-## Typography
+## Typography (v2 — 2026-10-22)
 
-System‑first — no external font downloads, fast and consistent across platforms.
+Self-hosted variable fonts, latin subsets — flagship character with zero external requests.
 
-* **Font stack:** `ui-sans-system, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", Ubuntu, Cantarell, sans-serif` (and `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace` for code)
-* **Heading style:** `font-weight 800` for `h1`, `700` for `h2`, `650` for `h3`, `letter-spacing -0.02em`, `line-height 1.15`
-* **Body style:** `font-size 16px`, `line-height 1.6`, `color #0f172a`, `400` regular
-* **Navigation style:** `font-size 0.92rem`, `font-weight 550`, `color #0f172a`, `letter-spacing -0.01em`
-* **Button style:** `font-size 0.95rem`, `font-weight 650`, `border-radius 999px`, `letter-spacing 0`
-* **Code / technical style:** `ui-monospace`, `font-size 0.82rem`, `background rgba(255,255,255,0.06)` on dark, `border #e2e8f0` on light
-
-No external font dependency is added solely for branding.
+* **Primary:** `Source Sans 3` variable (weights 200–900) — `assets/fonts/source-sans-3-latin.woff2` (~29KB), fallback `system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif`
+* **Monospace:** `Source Code Pro` variable (weights 200–900) — `assets/fonts/source-code-pro-latin.woff2` (~22KB), fallback `ui-monospace, SFMono-Regular, Menlo, Consolas, monospace`
+* **Display style:** weight `300` for `h1`/`h2`/`h3` with progressive negative tracking (≈ −0.025em at 56px, relaxing toward 0 at body sizes) — lightness is the signature
+* **Body style:** `16px`, weight `400`, `line-height 1.6`, color `#425a75`; intro copy `18px` weight `300`
+* **Navigation / buttons / links:** weight `400`
+* **Button style:** `4px` radius, `10px 16px`, primary fill KivuStack Blue; ghost variant with `1px` accent border
+* **Code / technical style:** `Source Code Pro`, `13px`, weight `500`; package chips (`com.perime.perimeapp`) use it
+* Fonts are preloaded in `<head>` and rendered with `font-display: swap`; the site never contacts a font CDN.
 
 ---
 
@@ -106,8 +114,8 @@ Referenced in `index.html` at repository root as:
 
 * Header wordmark replaced with `assets/images/kivustack-logo.svg` (light) linking to `#home` with `alt="KivuStack Ltd"`.
 * Footer uses `kivustack-logo.svg` variant (primary on light footer) — `assets/images/kivustack-logo.svg`.
-* CSS variables in `assets/css/style.css` at repository root align with this palette (`--text #0f172a`, `--accent #2563eb`, `--bg-hero #0b1020`, etc.).
-* No redesign beyond brand integration — responsive layout, accessibility, reduced‑motion, focus states, and performance characteristics are preserved.
+* CSS variables in `assets/css/style.css` align with the v2 system (`--heading #061b31`, `--accent #2563eb`, `--navy #0b1020`, plus elevation and radius tokens).
+* v2 (2026-10-22) is a flagship refresh with the same guarantees preserved: responsive layout, accessible contrast, `prefers-reduced-motion`, visible focus rings, reveal-on-scroll behind a `js` root-class guard (content renders without JavaScript), self-hosted fonts, and no page weight beyond the two woff2 subsets.
 
 ---
 
