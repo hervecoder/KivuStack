@@ -96,6 +96,34 @@ Self-hosted variable fonts, latin subsets — flagship character with zero exter
 
 ---
 
+## Iconography (v2.1 — 2026-10-22)
+
+* **System:** one inline SVG `<symbol>` sprite at the top of each page (`<svg class="sprite">`, visually hidden), referenced with `<use href="#i-…">`. No icon font, no CDN, no extra HTTP request.
+* **Geometry:** 24×24 viewBox, 1.7px stroke, round caps and joins, `currentColor`, no fill — except the GitHub and LinkedIn marks, which are filled brand marks (`ico--brand`) used only to link to KivuStack’s official accounts.
+* **Sizes:** 18px inside icon chips, 17px in buttons, 15px in header CTAs, 14px inline / footer (`ico--sm`).
+* **Icon chips:** 36×36px (34px in principles, 32px in card headings), 5px radius, `#eff6ff` fill, `#bfdbfe` border, `#1d4ed8` glyph. On pointer hover they scale to 1.07 and rotate −3° — in place, never moving the layout.
+* **Set:** product surfaces (software window, globe, mobile, cube, bolt, compass), principles (target, leaf, shield-check, lock, refresh, branch), and utility (arrows, download, external link, GitHub, LinkedIn, link, users, building, home, terminal, check). All are simple original geometry drawn for this site.
+* **Accessibility:** every decorative icon is `aria-hidden="true"`; every control keeps a visible text label, so no icon-only meanings are introduced.
+
+## Motion & interaction (v2.1 — 2026-10-22)
+
+One token set in `style.css` — no scattered magic values:
+
+| Token | Value | Use |
+|-------|-------|-----|
+| `--ease-out` | `cubic-bezier(.22,.61,.36,1)` | color, border, shadow |
+| `--ease-glide` | `cubic-bezier(.16,1,.3,1)` | reveals, sheen, progress |
+| `--ease-spring` | `cubic-bezier(.34,1.56,.64,1)` | press, icon pop, arrows |
+| `--dur-fast` / `--dur` / `--dur-slow` | `140ms` / `240ms` / `700ms` | state / hover / entrance |
+
+* **No vertical hover lift.** Cards respond with border + blue-tinted elevation and a pointer-tracking radial spotlight (≤8% blue, `--mx`/`--my` CSS variables). Icon chips scale in place.
+* **Press, don’t jump.** Buttons spring-scale to `0.965` and emit a pointer-origin ripple; nav links scale to `0.97`. Horizontal arrow nudges (2–3px) are the only directional hover movement.
+* **Scroll choreography.** Reveal-on-scroll fades/rises sections once, with a 70ms stagger across children (capped at 12). Hero copy cascades on first paint. A 2px gradient scroll-progress bar tracks the page; the header gains elevation after 8px; the hero phone drifts ≤ ~40px for depth. No scroll-jacking — anchors keep native smooth scrolling.
+* **Ambient detail.** Ribbon sheen sweep (13s), phone float (7s), one-time progress fill and check pop, status-dot pulse, and a blinking terminal caret.
+* **Guardrails.** Transform/opacity only (no layout-thrashing properties). `prefers-reduced-motion: reduce` disables animations/transitions/parallax and forces all reveal content visible. Without JavaScript, all content is visible by default.
+
+---
+
 ## Favicon
 
 * `assets/images/favicon.svg` — 32×32 icon-based favicon (same K mark). Referenced in `index.html` and `404.html` at repository root as `type="image/svg+xml"`.
@@ -116,6 +144,7 @@ Referenced in `index.html` at repository root as:
 * Footer uses `kivustack-logo.svg` variant (primary on light footer) — `assets/images/kivustack-logo.svg`.
 * CSS variables in `assets/css/style.css` align with the v2 system (`--heading #061b31`, `--accent #2563eb`, `--navy #0b1020`, plus elevation and radius tokens).
 * v2 (2026-10-22) is a flagship refresh with the same guarantees preserved: responsive layout, accessible contrast, `prefers-reduced-motion`, visible focus rings, reveal-on-scroll behind a `js` root-class guard (content renders without JavaScript), self-hosted fonts, and no page weight beyond the two woff2 subsets.
+* v2.1 (2026-10-22) adds the inline icon sprite and shared motion system documented above; it keeps the same guarantees — self-hosted assets only, no analytics, no icon CDN, reduced-motion support, and content visible without JavaScript.
 
 ---
 

@@ -4,6 +4,19 @@ This changelog records significant public changes to the **KivuStack Ltd** compa
 
 ---
 
+## 2026-10-22 — Icon System & Interaction Motion (v2.1)
+
+* Iconized the remaining text-only UI: principles, leadership card, contact cards, featured product, primary/ghost CTAs, desktop and mobile navigation, footer links, breadcrumb/back links, and the 404 page. All icons are inline SVG symbols in a once-per-page sprite — no icon font, no CDN, no extra request.
+* Replaced the vertical card hover lift with a cursor-tracking radial spotlight and border/elevation response (no layout shift, no Y movement); icon chips now scale in place.
+* Added tactile interaction: spring press feedback on buttons/links, pointer-origin ripples on buttons, an animated underline for desktop nav, and a smooth opacity/translate menu transition on mobile.
+* Added one shared motion language (`--ease-out`, `--ease-glide`, `--ease-spring`; 140/240/700ms): staggered scroll reveals (70ms per child), hero first-paint cascade, ribbon sheen sweep, floating phone concept with animated progress fill and check-pop, status-dot pulse, scroll-progress bar, header elevation on scroll, subtle hero parallax, and a terminal caret.
+* Contrast fixes over the blue ribbon: hero note, Perime disclaimer, and phone caption now sit on white chips.
+* Fixed `404.html` to load `assets/js/main.js` — its mobile navigation toggle previously did nothing.
+* All motion is transform/opacity based and respects `prefers-reduced-motion` (animations off, all content forced visible); content still renders without JavaScript.
+* Page copy, metadata, structured data, canonical URLs, links, and external-request count unchanged.
+
+---
+
 ## 2026-10-22 — Website Visual System v2 (Flagship Redesign)
 
 * Website rebuilt on a Stripe-grade visual system adapted to the KivuStack brand — light pages, deep-navy headings (`#061b31`), body slate (`#425a75`), KivuStack Blue (`#2563eb`) as the single interactive accent, conservative 4–8px radii, blue-tinted multi-layer elevation shadows, and a signature tilted blue hero "ribbon".
